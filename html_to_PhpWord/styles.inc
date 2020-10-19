@@ -4,6 +4,9 @@
 // This is an example of how a "style sheet" should be structured
 // to asign PHPWord styles to HTML elements, classes, and inline
 // styles.
+
+namespace htmltodocx;
+
 use PhpOffice\PhpWord\Style\Font;
 function htmltodocx_styles_example()
 {

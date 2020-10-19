@@ -1,8 +1,10 @@
 <?php
-require_once 'html_to_PhpWord/phpword/bootstrap.php';
-require_once 'html_to_PhpWord/simplehtmldom/simple_html_dom.php';
-require_once 'html_to_PhpWord/htmltodocx_converter/h2d_htmlconverter.php';
-require_once 'html_to_PhpWord/styles.inc';
+namespace htmltodocx;
+
+require_once 'phpword/bootstrap.php';
+require_once 'simplehtmldom/simple_html_dom.php';
+require_once 'htmltodocx_converter/h2d_htmlconverter.php';
+require_once 'styles.inc';
 
 use PhpOffice\PhpWord\Settings;
 use PhpOffice\PhpWord\Shared\Html;

@@ -37,3 +37,4 @@ tmp/
 /*.zip
 /*.dot
 /html_to_PhpWord/phpword/vendor/*
+vendor/
