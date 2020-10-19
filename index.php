@@ -3,6 +3,31 @@
 error_reporting(-1);
 ini_set('display_errors', 1);
 
+if(!is_dir('tmp/')){
+    $errorArray[]= "tmp directory not exists";
+}elseif (!is_writable(getcwd()."/tmp/")) {
+    $errorArray[] = "'tmp' directory is not writable.";
+}
+if(!extension_loaded('zip')){
+    $errorArray[]= "'ZIP' PHP extensions not found";
+}
+
+if(!extension_loaded('simplexml')){
+    $errorArray[]= "'xml' PHP extensions not found";
+}
+if(!extension_loaded('mbstring')){
+    $errorArray[]= "'mbstring' PHP extensions not found";
+}
+if(!extension_loaded('gd')){
+    $errorArray[]= "'GD\|ImageMagick' PHP extensions not found";
+}
+if (count($errorArray) > 0) {
+    ?>
+    <div style="color: red;text-align: left;">
+    <strong>Error !</strong><br> <?= implode('<br>', $errorArray) ?>
+    </div><?php
+    exit(); // EXIT_ERROR
+}
 require_once "html2docx.php";
 
 $html2docx=new html2docx();

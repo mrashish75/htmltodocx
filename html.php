@@ -121,7 +121,7 @@
     </tbody>
 </table>
 
-<p style="text-align: center;"><strong>-END OF SURVEILLANCE LOG-</strong></p>
+<p style="text-align: center;"><strong>-END OF LOG-</strong></p>
 <pagebreak></pagebreak>
 
 <h1>Remarks</h1>
