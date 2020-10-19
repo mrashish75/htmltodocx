@@ -2,7 +2,7 @@
 
 error_reporting(-1);
 ini_set('display_errors', 1);
-
+$errorArray=[];
 if(!is_dir('tmp/')){
     $errorArray[]= "tmp directory not exists";
 }elseif (!is_writable(getcwd()."/tmp/")) {
