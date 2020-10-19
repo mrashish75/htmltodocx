@@ -1,0 +1,20 @@
+{
+  "name": "htmltodocx/htmltodocx",
+  "type": "library",
+  "description": "html to docx for Version 1.0.0",
+  "keywords": ["Html","Docx"],
+  "homepage": "https://github.com/mrashish75/htmltodocx.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ashish Kumar",
+      "email": "mrashish75@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+  }
+}
