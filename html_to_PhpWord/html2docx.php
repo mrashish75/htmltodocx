@@ -1,5 +1,5 @@
 <?php
-namespace htmltodocx;
+namespace htmltodocx\html_to_PhpWord;
 
 require_once 'phpword/bootstrap.php';
 require_once 'simplehtmldom/simple_html_dom.php';

@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "htmltodocx": "html_to_PhpWord/"
+      "htmltodocx\\html_to_PhpWord\\": "html_to_PhpWord/"
     }
   },
   "scripts": {

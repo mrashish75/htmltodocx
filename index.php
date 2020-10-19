@@ -28,7 +28,7 @@ if (count($errorArray) > 0) {
     </div><?php
     exit(); // EXIT_ERROR
 }
-require_once "html2docx.php";
+require_once "vendor/autoload.php";
 
 $html2docx=new html2docx();
 

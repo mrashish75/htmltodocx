@@ -5,7 +5,7 @@
 // to asign PHPWord styles to HTML elements, classes, and inline
 // styles.
 
-namespace htmltodocx;
+namespace htmltodocx\html_to_PhpWord;
 
 use PhpOffice\PhpWord\Style\Font;
 function htmltodocx_styles_example()
