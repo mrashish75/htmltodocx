@@ -805,7 +805,7 @@ function createImageFromBase64ToLocalpath($base64_string){
             if (base64_encode(base64_decode($data, true)) === $data) {
                 $data = base64_decode($data, true);
                 if (in_array($format, $allowedExtensions)) {
-                    $imagename = sys_get_temp_dir() .'/'. gen_uuid1() . '.' . $format;
+                    $imagename = sys_get_temp_dir() .'/'. gen_uuid() . '.' . $format;
                     $status = file_put_contents($imagename, $data);
                     if ($status != false) {
                         return $imagename;
@@ -826,7 +826,7 @@ function createImageFromBase64ToLocalpath($base64_string){
 /**
  * @return string
  */
-function gen_uuid1(){
+function gen_uuid(){
     return sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x',
         mt_rand(0, 0xffff), mt_rand(0, 0xffff),
         mt_rand(0, 0xffff),
