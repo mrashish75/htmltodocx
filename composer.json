@@ -22,7 +22,7 @@
   },
   "scripts": {
     "dev-update": [
-      "@composer update -d html_to_PhpWord/phpword/"
+      "@php composer.phar update -d html_to_PhpWord/phpword/"
     ]
   }
 }
