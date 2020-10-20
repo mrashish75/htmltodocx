@@ -3,6 +3,7 @@
   "type": "library",
   "description": "html to docx for Version 1.0.0",
   "keywords": ["Html","Docx"],
+  "version": "v1.0.0",
   "homepage": "https://github.com/mrashish75/htmltodocx.git",
   "license": "MIT",
   "authors": [
