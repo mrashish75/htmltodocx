@@ -21,7 +21,7 @@
     }
   },
   "scripts": {
-    "dev-update": [
+    "post-update-cmd": [
       "@php composer.phar update -d html_to_PhpWord/phpword/"
     ]
   }
