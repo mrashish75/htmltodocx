@@ -29,7 +29,7 @@ if (count($errorArray) > 0) {
     exit(); // EXIT_ERROR
 }
 require_once "vendor/autoload.php";
-
+use htmltodocx\html_to_PhpWord\html2docx;
 $html2docx=new html2docx();
 
 $Company['Address']="How do I get Lorem Ipsum text?";

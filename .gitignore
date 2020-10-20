@@ -38,3 +38,4 @@ tmp/
 /*.dot
 /html_to_PhpWord/phpword/vendor/*
 vendor/
+composer.lock

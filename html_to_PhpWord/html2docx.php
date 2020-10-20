@@ -2,7 +2,7 @@
 namespace htmltodocx\html_to_PhpWord;
 
 require_once 'phpword/bootstrap.php';
-require_once 'simplehtmldom/simple_html_dom.php';
+//require_once 'simplehtmldom/simple_html_dom.php';
 require_once 'htmltodocx_converter/h2d_htmlconverter.php';
 require_once 'styles.inc';
 
@@ -10,7 +10,7 @@ use PhpOffice\PhpWord\Settings;
 use PhpOffice\PhpWord\Shared\Html;
 use PhpOffice\PhpWord\Shared\Converter;
 use PhpOffice\PhpWord\PhpWord;
-
+use htmltodocx\html_to_PhpWord\simplehtmldom\simple_html_dom;
 class html2docx {
 	
 	var $phpword_object;
